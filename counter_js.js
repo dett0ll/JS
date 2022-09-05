@@ -10,5 +10,6 @@ function count(){
 		
 document.addEventListener('DOMContentLoaded',function(){
 	document.querySelector('button').onclick=count;
+	setInterval(count,1000); //to automatically start count after 1000 ms
 		});
 		
