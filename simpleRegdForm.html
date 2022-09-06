@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <body>
+        <form id="registration" method="get">
+            <input type="text" placeholder="email" name="email">
+            <input type="password" placeholder="password" name="password">
+            <input type="password" placeholder="password(again)" name="confirmation">
+            <input type="checkbox" name="agreement">I agree
+            <input type="submit" value="Register">
+        </form>
+
+        <script>
+            const form = document.getElementById('registration');
+            form.onsubmit = function (){
+                if (form.email.value == ''){
+                    alert ('Missing email');
+                }
+                else if (form.password.value == ''){
+                    alert ('Missing password');
+                
+                }
+                else if (form.password.value != form.confirmation.value){
+                    alert ('Password does not match');
+                }
+                else if (!form.agreement.checked){
+                    alert('check box unchecked');
+                    return false;
+                }
+                return true; /*if all the above cases satisfy then 
+                browsers deafult action wil be to submit the form hence return true */
+
+            };
+        </script>
+    </body>
+
+</html>
