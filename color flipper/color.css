@@ -1,0 +1,21 @@
+#color {
+  margin-left: 100px;
+  width: 200px;
+  height: 60px;
+  border: 2px solid blue;	
+  padding-top: 10px;
+}
+.teal {
+	background-color:teal;
+	color: white;
+	margin-left: 110px;
+}
+
+.tan {
+	background-color:tan;
+	color: white;
+	margin-left: 100px;
+}
+.cf {
+	margin-left: 100px;
+}
