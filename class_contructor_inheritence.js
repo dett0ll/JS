@@ -1,3 +1,4 @@
+//https://www.youtube.com/watch?v=_cgBvtYT3fQ&list=PL4cUxeGkcC9i5yvDkJgt60vNVWffpblB7&index=8
 class User {
     constructor(email, name){
         this.email = email;
