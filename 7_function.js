@@ -39,3 +39,16 @@ function rarea(l,b){
     return a
 }
 console.log(rarea(2,3))
+
+//function with many parameters
+function soa(n){
+    let sum = 0;
+    for (let i=0; i<=n.length; i++){
+        sum +=i
+    }
+    return sum
+}
+
+
+const n = [1,2,3,4,5]
+console.log(soa(n))
