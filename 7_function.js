@@ -80,3 +80,13 @@ let squaredNum = (function(n) {
   return n * n
 })(10)
 console.log(squaredNum)
+
+//Arrow function
+//zero parameter
+const area = () => {}
+
+//one parameter
+const area = length => {}
+
+//two parameter
+const area = (length, breadth) => {}
