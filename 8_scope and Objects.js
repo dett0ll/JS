@@ -12,3 +12,5 @@ function letsLearnScope() {
 }
 letsLearnScope()
 console.log(a, b)
+
+Const drivers = {} //empty object
