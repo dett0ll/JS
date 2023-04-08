@@ -39,3 +39,22 @@ redbull.sd_rival = function(){
 }
 console.log(redbull)
 console.log(redbull.sd_rival())
+
+//copy and object without modifying the original object
+const rcopy = Object.assign({}, redbull)
+console.log(rcopy)
+//to get keys or properties of an object as an array
+const k = Object.keys(redbull)
+console.log(k)
+//[ 'first_name', 'last_name', 'age', 'nationality', 'championships, 'rival']
+
+//to get object values
+const v = Object.values(redbull)
+console.log(v)
+
+//to get keys and values together
+const t = Object.entries(redbull)
+console.log(t)
+
+//to check if a specific key or property exists
+console.log(redbull.hasOwnProperty('first_name')) //True
