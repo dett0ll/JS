@@ -14,3 +14,20 @@ letsLearnScope()
 console.log(a, b)
 
 Const drivers = {} //empty object
+
+const redbull ={
+    //properties
+    first_name : 'max', 
+    last_name : 'verstappen',
+    age : '22',
+    nationality : 'dutch',
+    championships : ['2021', '2022'],
+    //methods
+    rival: function(){
+        console.log('Hamilton')
+    }
+    }
+console.log(redbull.first_name)
+console.log(redbull.age)
+console.log(redbull.championships)
+console.log(redbull.rival())
