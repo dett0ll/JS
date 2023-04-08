@@ -31,3 +31,11 @@ console.log(redbull.first_name)
 console.log(redbull.age)
 console.log(redbull.championships)
 console.log(redbull.rival())
+
+//Crearing new properties and methods
+redbull.sd = 'Sergio'
+redbull.sd_rival = function(){
+    console.log('max')
+}
+console.log(redbull)
+console.log(redbull.sd_rival())
