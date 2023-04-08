@@ -52,3 +52,14 @@ function soa(n){
 
 const n = [1,2,3,4,5]
 console.log(soa(n))
+// if we use arrow function, arguments is not used. instead ...args is used
+// it is for function which has unlimited arguments
+
+const soa = (...args) => {
+    let sum= 0
+    for (const element of args){
+        sum += element
+    }
+    return sum
+}
+console.log(soa(1,2,3,4,5))
