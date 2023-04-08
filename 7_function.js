@@ -63,3 +63,20 @@ const soa = (...args) => {
     return sum
 }
 console.log(soa(1,2,3,4,5))
+
+// a function without name is anonymous function
+//in this case we are calling the variable to which we assigned the anonymous function to. so it can be called expression function as well
+const a = function (){
+    console.log('this i anonymous function')
+}
+a()
+//Self invoking functions are anonymous functions which do not need to be called to return a value.
+(function(n) {
+  console.log(n * n)
+})(2)
+
+//but instead of just printing if we want to return and store the data, we do as shown below
+let squaredNum = (function(n) {
+  return n * n
+})(10)
+console.log(squaredNum)
